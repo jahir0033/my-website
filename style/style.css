@@ -1,9 +1,23 @@
 /* wark sans frond */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared */
+
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: wor;
+} 
+.btn-primary{
+    border-radius: 9px;
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    color: #FFF;
+    padding: 22px 26px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
 }
+/* header style  */
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -44,10 +58,25 @@ nav li{
     font-weight: 700;
 
 }
-.banner-discreption{
+.banner img{
+    margin-top: 20px;
+    width: 100%;
 
 }
-.
-{
-    
+@media screen and (max-width: 569px ) {  
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet or medium devices */
+@media screen and (min-width: 570px ) and (max-width: 990px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
 }
