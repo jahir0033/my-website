@@ -1,0 +1,53 @@
+/* wark sans frond */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: wor;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+   
+}
+/* banner style */
+.banner-container{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-title{
+    color: var(--dark-01, #131313);
+    /* text-align: center; */
+    /* font-family: Work Sans; */
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.banner-discreption{
+
+}
+.
+{
+    
+}
