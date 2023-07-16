@@ -104,10 +104,16 @@ main{
     nav{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column;
+    }
 }
 /* tablet or medium devices */
 @media screen and (min-width: 570px ) and (max-width: 990px) {
     nav{
+        flex-direction: column;
+    }
+    .teams-container{
         flex-direction: column;
     }
     header{
